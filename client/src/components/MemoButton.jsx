@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import arrow from "../images/arrow.svg";
 
 export default function MemoButton(props) {
@@ -21,7 +21,7 @@ export default function MemoButton(props) {
           MemoAR
         </div>
       </a>
-      <p className=" font-clash text-3xl animate-fadein-03">
+      <p className=" font-clash text-lg lg:text-3xl animate-fadein-03 tracking-wider">
         create a memo, leave a memory...
       </p>
     </div>
