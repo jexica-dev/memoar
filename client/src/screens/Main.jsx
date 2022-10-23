@@ -4,6 +4,7 @@ import MemoButton from "../components/MemoButton";
 // import MemoBg from "../components/MemoBg";
 import vBg from "../images/v-bg.png";
 
+
 export default function Main() {
   return (
     <>
