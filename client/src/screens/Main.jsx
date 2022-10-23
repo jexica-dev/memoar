@@ -4,7 +4,6 @@ import MemoButton from "../components/MemoButton";
 // import MemoBg from "../components/MemoBg";
 import vBg from "../images/v-bg.png";
 
-
 export default function Main() {
   return (
     <>
@@ -17,7 +16,7 @@ export default function Main() {
           </div>
           <img
             style={{ zIndex: "-10", opacity: ".5" }}
-            className=" animate-fadein-03 absolute left-0"
+            className=" animate-fadein absolute left-0"
             src={vBg}
             alt=""
             srcset=""

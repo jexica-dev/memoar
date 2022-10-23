@@ -10,25 +10,27 @@ export default function Navbar() {
   };
 
   return (
-    <div className=" fixed z-50 top-0 flex flex-col w-full justify-around pt-3">
-      <button onClick={handleToggle}>
-        <Hamburger toggled={isOpen} toggle={setIsOpen} />
-      </button>
+    <div className=" fixed z-50 top-0 flex flex-col w-full place-content-center pt-3 bg-white filter drop-shadow-sm">
+      <div className=" pl-5 pb-3">
+        <button onClick={handleToggle}>
+          <Hamburger toggled={isOpen} toggle={setIsOpen} />
+        </button>
+      </div>
       <ul
         style={
           !isOpen ? { display: "none" } : { display: "", fontSize: "10vw" }
         }
         className={
-          !isOpen ? "hide" : " flex flex-col justify-center text-black  "
+          !isOpen ? "hide" : " flex flex-col text-black items-center h-screen"
         }
       >
-        <li>
-          <Link to="/about"> Home </Link>
+        <li className="hover:text-gray-500">
+          <Link to="/"> Play </Link>
         </li>
-        <li>
+        <li className="hover:text-gray-500">
           <Link to="/about"> About </Link>
         </li>
-        <li>
+        <li className="hover:text-gray-500">
           <Link to="/demo"> Demo </Link>
         </li>
       </ul>

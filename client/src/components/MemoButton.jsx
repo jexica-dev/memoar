@@ -6,7 +6,7 @@ export default function MemoButton(props) {
   return (
     <div className="">
       <div className="w-screen flex flex-col  place-items-center place">
-        <div className=" animate-fadein-03 mb-10">
+        <div className=" animate-fadein mb-10">
           <img
             className=" animate-bounce-slow  place-items-center "
             src={arrow}
@@ -21,7 +21,7 @@ export default function MemoButton(props) {
           MemoAR
         </div>
       </a>
-      <p className=" font-clash text-lg lg:text-3xl animate-fadein-03 tracking-wider">
+      <p className=" text-lg lg:text-3xl animate-fadein-03 tracking-wider">
         create a memo, leave a memory...
       </p>
     </div>

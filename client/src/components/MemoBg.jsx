@@ -2,12 +2,12 @@ import React, { useEffect, useRef } from "react";
 import imageBg from "../../src/images/v-bg.png";
 
 export default function MemoBg() {
-  let myRef = useRef();
+  // let myRef = useRef();
 
-  useEffect(() => {
-    myRef.current.muted = true;
-    myRef.current.play();
-  }, []);
+  // useEffect(() => {
+  //   myRef.current.muted = true;
+  //   myRef.current.play();
+  // }, []);
 
   return (
     <div
