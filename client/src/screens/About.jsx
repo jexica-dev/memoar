@@ -35,7 +35,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className=" lg:float-right w-full lg:w-1/2 h-128 lg:top-20 pt-16 lg:fixed lg:right-0">
+        <div className=" lg:float-right w-full lg:w-1/2 h-128 lg:top-20 pt-16 lg:fixed lg:right-0 pb-16">
           <iframe
             width="100%"
             height="100%"
